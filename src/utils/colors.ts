@@ -1,0 +1,26 @@
+// coolors.co/003049-d62828-f77f00-fcbf49-eae2b7
+
+// export const BLUE = '#003049'
+export const BLUE = '#0b94dd'
+export const RED = '#D62828'
+export const ORANGE = '#F77F00'
+// export const YELLOW = '#FCBF49'
+export const YELLOW = '#ECAD2E'
+export const MERINGUE = '#EAE2B7'
+
+export const WHITE = '#FAF9EF'
+export const BLACK = '#000D14'
+export const DARK_GRAY = '#1b1b1b'
+export const GRAY = '#636363'
+export const LIGHT_GRAY = '#a3a3a3'
+
+export const LIGHT_BLUE = '#0fa9ec'
+// export const LIGHT_BLUE = '#006AA3'
+export const DARK_BLUE = '#001B29'
+export const LIGHT_RED = '#DF5353'
+export const DARK_RED = '#170202'
+export const LIGHT_ORANGE = '#FFB05C'
+export const DARK_ORANGE = '#6e3a03'
+export const VERY_DARK_ORANGE = '#2e1904'
+export const LIGHT_YELLOW = '#FDDC9B'
+export const DARK_YELLOW = '#B57903'

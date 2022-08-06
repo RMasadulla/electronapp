@@ -1,0 +1,76 @@
+import { shuffleDeck } from '@/utils/helpers'
+
+import {
+    BLOCKADE_CARD,
+    BLOCKADE_CARD_02,
+    BLOCKADE_CARD_03,
+    BLOCKADE_CARD_04,
+} from './cards/blockade'
+import { COMBAT_CARE_CARD_03, COMBAT_CARE_CARD_04 } from './cards/combatCare'
+import { RAPID_DEPLOYMENT_CARD_03, RAPID_DEPLOYMENT_CARD_04 } from './cards/rapidDeployment'
+import { SCAVENGER_CARD_03, SCAVENGER_CARD_04 } from './cards/scavenger'
+import { SWINDLE_CARD, SWINDLE_CARD_02, SWINDLE_CARD_03, SWINDLE_CARD_04 } from './cards/swindle'
+import { ALL_IN, ALL_IN_02, ALL_IN_03, ALL_IN_04 } from './cards/allIn'
+import {
+    DEADLY_ARSENAL_CARD,
+    DEADLY_ARSENAL_CARD_02,
+    DEADLY_ARSENAL_CARD_03,
+    DEADLY_ARSENAL_CARD_04,
+} from './cards/deadlyArsenal'
+import { OPERATION_EVENT_CARD_03, OPERATION_EVENT_CARD_04 } from './cards/operationEvent'
+import {
+    SPOILS_OF_WAR,
+    SPOILS_OF_WAR_02,
+    SPOILS_OF_WAR_03,
+    SPOILS_OF_WAR_04,
+} from './cards/spoilsOfWar'
+
+export const ALL = [
+    ALL_IN,
+    ALL_IN_02,
+    ALL_IN_03,
+    ALL_IN_04,
+
+    BLOCKADE_CARD,
+    BLOCKADE_CARD_02,
+    BLOCKADE_CARD_03,
+    BLOCKADE_CARD_04,
+
+    COMBAT_CARE_CARD_03,
+    COMBAT_CARE_CARD_04,
+
+    DEADLY_ARSENAL_CARD,
+    DEADLY_ARSENAL_CARD_02,
+    DEADLY_ARSENAL_CARD_03,
+    DEADLY_ARSENAL_CARD_04,
+
+    OPERATION_EVENT_CARD_03,
+    OPERATION_EVENT_CARD_04,
+
+    RAPID_DEPLOYMENT_CARD_03,
+    RAPID_DEPLOYMENT_CARD_04,
+
+    SCAVENGER_CARD_03,
+    SCAVENGER_CARD_04,
+
+    SPOILS_OF_WAR,
+    SPOILS_OF_WAR_02,
+    SPOILS_OF_WAR_03,
+    SPOILS_OF_WAR_04,
+
+    SWINDLE_CARD,
+    SWINDLE_CARD_02,
+    SWINDLE_CARD_03,
+    SWINDLE_CARD_04,
+]
+
+export const LIMITED = [
+    COMBAT_CARE_CARD_03,
+    COMBAT_CARE_CARD_04,
+
+    SCAVENGER_CARD_03,
+    SCAVENGER_CARD_04,
+]
+
+export const ALL_OPERATION_CARDS = shuffleDeck(ALL)
+export const LIMITED_OPERATION_CARDS = shuffleDeck(LIMITED)

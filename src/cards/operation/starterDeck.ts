@@ -1,0 +1,15 @@
+import { shuffleDeck } from '@/utils/helpers'
+
+import { COMBAT_CARE_CARD, COMBAT_CARE_CARD_02 } from './cards/combatCare'
+import { RAPID_DEPLOYMENT_CARD, RAPID_DEPLOYMENT_CARD_02 } from './cards/rapidDeployment'
+import { SCAVENGER_CARD, SCAVENGER_CARD_02 } from './cards/scavenger'
+import { OPERATION_EVENT_CARD, OPERATION_EVENT_CARD_02 } from './cards/operationEvent'
+
+const RAPID_DEPLOYMENT = [RAPID_DEPLOYMENT_CARD, RAPID_DEPLOYMENT_CARD_02]
+const COMBAT_CARE = [COMBAT_CARE_CARD, COMBAT_CARE_CARD_02]
+const SCAVENGER = [SCAVENGER_CARD, SCAVENGER_CARD_02]
+const OPERATION_EVENT = [OPERATION_EVENT_CARD, OPERATION_EVENT_CARD_02]
+
+const deck = [...RAPID_DEPLOYMENT, ...COMBAT_CARE, ...SCAVENGER, ...OPERATION_EVENT]
+
+export const STARTER_OPERATION_DECK = shuffleDeck(deck)
